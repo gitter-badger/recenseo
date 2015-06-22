@@ -1,0 +1,5 @@
+include comment
+
+mixin comments(comments)
+    each c in comments
+        +comment(c.identity, c.date, c.comment)
